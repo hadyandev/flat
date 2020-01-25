@@ -30,7 +30,7 @@
                             </div>
                         @enderror
                     </div>
-                    <button type="submit" class="ui container secondary button"><i class="fas fa-sign-in-alt"></i> {{ __('Login') }}</button>
+                    <button type="submit" class="ui fluid secondary button"><i class="fas fa-sign-in-alt"></i> {{ __('Login') }}</button>
                 </form>
             </div>
         </div>

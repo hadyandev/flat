@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use Brian2694\Toastr\Facades\Toastr;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        Toastr::error('Toastr is working!', 'Berhasil!');
         return view('home');
     }
 

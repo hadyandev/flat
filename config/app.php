@@ -229,6 +229,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'Datatables' => Yajra\Datatables\Facades\Datatables::class,
+        'Toastr' => Brian2694\Toastr\Facades\Toastr::class,
 
     ],
 

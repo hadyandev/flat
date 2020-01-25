@@ -11,6 +11,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/semantic.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/toastr.min.css') }}" rel="stylesheet">
     @stack('style')
 </head>
 <body>
@@ -54,10 +55,13 @@
     <!-- Scripts -->
     <script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
     <script src="{{ asset('js/semantic.min.js') }}"></script>
+    <script src="{{ asset('js/toastr.min.js') }}"></script>
     <script src="{{ asset('js/fontawesome.all.min.js') }}"></script>
     <script>
         $('.ui.dropdown').dropdown();
     </script>
     @stack('script')
+
+    {!! Toastr::message() !!}
 </body>
 </html>
